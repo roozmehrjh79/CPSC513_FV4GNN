@@ -1,0 +1,355 @@
+>>> Verifying network using Marabou <<<
+File path: ./models/nnet/gcn_karate_V12_E38.nnet
+Input size: 408 | Output size: 48
+Note: For any query, UNSAT = True and SAT = False.
+
+Solving query: Check if all outputs fall within range (-0.25, 0.25)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 0.25)
+
+##########
+Query: Check if outputs fall within range (-0.25, 0.25)
+-> Total execution time: 601275.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-0.5, 0.5)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 0.5)
+
+##########
+Query: Check if outputs fall within range (-0.5, 0.5)
+-> Total execution time: 636772.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-1.0, 1.0)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1.0)
+
+##########
+Query: Check if outputs fall within range (-1.0, 1.0)
+-> Total execution time: 649769.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-2, 1)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1)
+
+##########
+Query: Check if outputs fall within range (-2, 1)
+-> Total execution time: 651183.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-4, 3)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 3)
+
+##########
+Query: Check if outputs fall within range (-4, 3)
+-> Total execution time: 636064.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-8, 7)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 7)
+
+##########
+Query: Check if outputs fall within range (-8, 7)
+-> Total execution time: 641056.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-16, 15)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 15)
+
+##########
+Query: Check if outputs fall within range (-16, 15)
+-> Total execution time: 633819.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-32, 31)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 31)
+
+##########
+Query: Check if outputs fall within range (-32, 31)
+-> Total execution time: 643889.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-64, 63)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 63)
+
+##########
+Query: Check if outputs fall within range (-64, 63)
+-> Total execution time: 646679.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-128, 127)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 127)
+
+##########
+Query: Check if outputs fall within range (-128, 127)
+-> Total execution time: 652887.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-256, 255)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 255)
+
+##########
+Query: Check if outputs fall within range (-256, 255)
+-> Total execution time: 657771.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-512, 511)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 511)
+
+##########
+Query: Check if outputs fall within range (-512, 511)
+-> Total execution time: 693171.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-1024, 1023)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1023)
+
+##########
+Query: Check if outputs fall within range (-1024, 1023)
+-> Total execution time: 632743.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-2048, 2047)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 2047)
+
+##########
+Query: Check if outputs fall within range (-2048, 2047)
+-> Total execution time: 643163.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-4096, 4095)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 4095)
+
+##########
+Query: Check if outputs fall within range (-4096, 4095)
+-> Total execution time: 627164.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-16384, 16383)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 1 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 2 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 3 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 4 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 5 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 6 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 7 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 8 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 9 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 10 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 11 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 12 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 13 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 14 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 15 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 16 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 17 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 18 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 19 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 20 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 21 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 22 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 23 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 24 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 25 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 26 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 27 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 28 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 29 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 30 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 31 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 32 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 33 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 34 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 35 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 36 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 37 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 38 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 39 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 40 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 41 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 42 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 43 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 44 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 45 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 46 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 47 falls within range (-inf, 16383)
+
+Solving sub-query: Check if output 0 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 1 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 2 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 3 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 4 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 5 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 6 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 7 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 8 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 9 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 10 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 11 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 12 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 13 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 14 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 15 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 16 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 17 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 18 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 19 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 20 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 21 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 22 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 23 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 24 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 25 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 26 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 27 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 28 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 29 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 30 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 31 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 32 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 33 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 34 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 35 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 36 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 37 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 38 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 39 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 40 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 41 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 42 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 43 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 44 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 45 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 46 falls within range (-16384, inf)
+
+Solving sub-query: Check if output 47 falls within range (-16384, inf)
+
+##########
+Query: Check if outputs fall within range (-16384, 16383)
+-> Total execution time: 1110262.0ms.
+-> Result: True (UNSAT); all outputs fall within specified ranges.
+##########
+

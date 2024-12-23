@@ -1,0 +1,56 @@
+Graph conversion times (in seconds) per mask (from 0 to 9):
+===========================================================
+0/
+-> Elapsed time: 0.3046884536743164
+Maximum memory usage (graph to .nnet conversion): 771.70703125
+
+1/
+-> Elapsed time: 0.3252413272857666
+Maximum memory usage (graph to .nnet conversion): 772.921875
+
+2/
+-> Elapsed time: 0.31178855895996094
+Maximum memory usage (graph to .nnet conversion): 766.1875
+
+3/
+-> Elapsed time: 0.34227442741394043
+Maximum memory usage (graph to .nnet conversion): 767.640625
+
+4/
+-> Elapsed time: 0.3435957431793213
+Maximum memory usage (graph to .nnet conversion): 766.37109375
+
+5/
+-> Elapsed time: 0.3928673267364502
+Maximum memory usage (graph to .nnet conversion): 769.234375
+
+6/
+-> Elapsed time: 0.4229874610900879
+Maximum memory usage (graph to .nnet conversion): 767.3046875
+
+7/
+-> Elapsed time: 0.4346890449523926
+Maximum memory usage (graph to .nnet conversion): 768.30859375
+
+8/
+-> Elapsed time: 0.9843637943267822
+Maximum memory usage (graph to .nnet conversion): 759.375
+
+9/
+-> Elapsed time: 1.1774828433990479
+Maximum memory usage (graph to .nnet conversion): 767.875
+
+Marabou memory usage per entry (order based on file explorer!!!):
+================================================================
+1/ V3_E4 - Maximum memory usage (verification with Marabou): 564.7890625
+2/ *V4_E8 - Gets stuck with UNSAT at 2^11 bound - Maximum memory usage (verification with Marabou): 566.4140625
+3/ V5_E12 - Maximum memory usage (verification with Marabou): 568.359375
+4/ *V6_E20 - Gets stuck with UNSAT at 2^12 bound - Maximum memory usage (verification with Marabou): 571.5546875
+5/ V7_E18 - Maximum memory usage (verification with Marabou): 581.96875
+6/ V12_E38 - Maximum memory usage (verification with Marabou): 605.23046875
+7/ V12_E48 - Maximum memory usage (verification with Marabou): 602.86328125
+8/ V13_E50 - Maximum memory usage (verification with Marabou): 609.15234375
+9/ V29_E136 - Maximum memory usage (verification with Marabou): 779.3671875
+10/ V34_E156 - Maximum memory usage (verification with Marabou): 858.49609375
+
+Note: Final graph (number 10) seems to get stuck at UNSAT for bound 2^16!

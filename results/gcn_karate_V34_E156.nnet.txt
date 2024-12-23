@@ -1,0 +1,155 @@
+>>> Verifying network using Marabou <<<
+File path: ./models/nnet/gcn_karate_V34_E156.nnet
+Input size: 1156 | Output size: 136
+Note: For any query, UNSAT = True and SAT = False.
+
+Solving query: Check if all outputs fall within range (-0.25, 0.25)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 0.25)
+
+##########
+Query: Check if outputs fall within range (-0.25, 0.25)
+-> Total execution time: 36057625.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-0.5, 0.5)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 0.5)
+
+##########
+Query: Check if outputs fall within range (-0.5, 0.5)
+-> Total execution time: 37855215.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-1.0, 1.0)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1.0)
+
+##########
+Query: Check if outputs fall within range (-1.0, 1.0)
+-> Total execution time: 37911322.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-2, 1)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1)
+
+##########
+Query: Check if outputs fall within range (-2, 1)
+-> Total execution time: 38026556.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-4, 3)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 3)
+
+##########
+Query: Check if outputs fall within range (-4, 3)
+-> Total execution time: 37752916.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-8, 7)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 7)
+
+##########
+Query: Check if outputs fall within range (-8, 7)
+-> Total execution time: 37727254.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-16, 15)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 15)
+
+##########
+Query: Check if outputs fall within range (-16, 15)
+-> Total execution time: 37845676.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-32, 31)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 31)
+
+##########
+Query: Check if outputs fall within range (-32, 31)
+-> Total execution time: 37932063.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-64, 63)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 63)
+
+##########
+Query: Check if outputs fall within range (-64, 63)
+-> Total execution time: 37954700.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-128, 127)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 127)
+
+##########
+Query: Check if outputs fall within range (-128, 127)
+-> Total execution time: 38094953.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-256, 255)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 255)
+
+##########
+Query: Check if outputs fall within range (-256, 255)
+-> Total execution time: 38766025.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-512, 511)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 511)
+
+##########
+Query: Check if outputs fall within range (-512, 511)
+-> Total execution time: 38090613.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-1024, 1023)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 1023)
+
+##########
+Query: Check if outputs fall within range (-1024, 1023)
+-> Total execution time: 37443272.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-2048, 2047)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 2047)
+
+##########
+Query: Check if outputs fall within range (-2048, 2047)
+-> Total execution time: 37210915.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
+Solving query: Check if all outputs fall within range (-4096, 4095)
+----------
+Solving sub-query: Check if output 0 falls within range (-inf, 4095)
+
+##########
+Query: Check if outputs fall within range (-4096, 4095)
+-> Total execution time: 37024465.0ms.
+-> Result: False (SAT); some outputs fall out of specified ranges.
+##########
+
