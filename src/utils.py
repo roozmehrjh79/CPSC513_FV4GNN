@@ -1,6 +1,7 @@
 # ----- Imports ----- #
 import torch
 from torch import Tensor
+from torch_geometric.data import InMemoryDataset
 from typing import Tuple, List, Dict
 
 
@@ -247,21 +248,20 @@ def export_to_nnet(
                 f.write(f"{biases[l][i]:.5e},\n")
 
 
-def gnn_to_mlp(saved_model_path: str, specs_path: str, export_path: str):
+def gnn_to_mlp(model_sdict_path: str, specs_file_path: str, export_dir: str):
     """
     Converts a GNN alongside a set of input/output specs to an equivalent MLP.
     The converted network is in ONNX format, with its associated specs in VNNLIB format.
 
     Parameters
     ----------
-    saved_model_path : str
-        Path to saved PyTorch model file. Must be a model object (not model
-        dictionary) in `.pt` format.
-    specs_oath: str
-        Path to input graph and its associated specs. Must be a plain text file with a
+    model_sdict_path : str
+        Path to state dictionary of the pre-trained GNN.
+    specs_file_path: str
+        Path to input graph specs file. Must be a plain text file with a
         specific format described later on.
-    export_path : str
-        The path in which the exported files would be saved to.
+    export_dir : str
+        The directory in which the exported files would be saved to.
     """
     # TODO: Load the specs file and configure input graph the same way done in
     # the `verify.py` file.
@@ -271,5 +271,52 @@ def gnn_to_mlp(saved_model_path: str, specs_path: str, export_path: str):
     # and loading the values into it.
 
     # TODO: Export the finalized MLP to an ONNX file, and also export
-    # equivalent specs to a VNNLIB file. 
+    # equivalent specs to a VNNLIB file.
+    
+    # Initialize variables
+    num_nodes = 0
+    num_edges = 0
+    num_features = 0
+    num_classes = 0
+    edge_index = [[], []]
+    edge_attr = []
+    input_bounds: Dict[int, Dict[str, float]] = {}
+    output_bounds: Dict[int, Dict[str, float]] = {}
+    
+    # Load and parse the specs file
+    # TODO: Needs completion
+    with open(specs_file_path, "r") as f:
+        for line in f:
+            if line.strip().startswith("("):
+                arg = line.strip()[1:-2].split(" ")
+                match arg[0]:  # arg[0] is always the command
+                    case "declare-num-nodes":
+                        num_nodes = int(arg[1])
+                    case "declare-num-edges":
+                        num_edges = int(arg[1])
+                    case "declare-num-features":
+                        num_features = int(arg[1])
+                    case "declare-num-classes":
+                        num_classes = int(arg[1])
+                    case "declare-edge":
+                        src = int(arg[1].split('_')[-1])
+                        dest = int(arg[2].split('_')[-1])
+                        weight = float(arg[3])
+                        edge_index[0].append(src)
+                        edge_index[1].append(dest)
+                        edge_attr.append(weight)
+                    case "assert":
+                        operator = arg[0]
+                        value = float(arg[3])
+                        target = arg[2].split("_")
+                        node = int(target[1])
+                        type = "input" if target[0] == "X" else "output"
+                        if type == "input":
+                            node = int(target[1])
+                            feature = int(target[2])
+                            var_idx = node * num_features + feature
+                            # TODO: Completion needed
+                        else:
+                            cls_label = int(target[2])
+                            # TODO: Completion needed
     pass

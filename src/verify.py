@@ -52,7 +52,7 @@ def gnn_to_nnet():
         8: [i for i in range(34) if i not in [4, 5, 6, 10, 16]],
         9: [i for i in range(34)]
     }
-    mask = mask_dict[9]
+    mask = mask_dict[0]
 
     # Prepare for conversion & monitor runtime and memory consumption
     print("--- Exporting graph to .nnet format -----")
@@ -221,9 +221,10 @@ def verify_nnet():
 
 # ----- Main program ----- #
 if __name__ == "__main__":
-    #mem_usage = memory_usage(gnn_to_nnet)
-    #print('Maximum memory usage (graph to .nnet conversion): %s' % max(mem_usage))
+    mem_usage = memory_usage(gnn_to_nnet)
+    print('Maximum memory usage (graph to .nnet conversion): %s' % max(mem_usage))
     
-    NNET_FILENAME = "gcn_karate_V34_E156.nnet"  # manual override
-    mem_usage = memory_usage(verify_nnet)
-    print('Maximum memory usage (verification with Marabou): %s' % max(mem_usage))
+    #NNET_FILENAME = "gcn_karate_V34_E156.nnet"  # manual override
+    #NNET_FILENAME = "gcn_karate_VT_ET.nnet"  # manual override
+    #mem_usage = memory_usage(verify_nnet)
+    #print('Maximum memory usage (verification with Marabou): %s' % max(mem_usage))

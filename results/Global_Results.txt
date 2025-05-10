@@ -40,8 +40,8 @@ Maximum memory usage (graph to .nnet conversion): 759.375
 -> Elapsed time: 1.1774828433990479
 Maximum memory usage (graph to .nnet conversion): 767.875
 
-Marabou memory usage per entry (order based on file explorer!!!):
-================================================================
+Marabou memory usage per entry:
+===============================
 1/ V3_E4 - Maximum memory usage (verification with Marabou): 564.7890625
 2/ *V4_E8 - Gets stuck with UNSAT at 2^11 bound - Maximum memory usage (verification with Marabou): 566.4140625
 3/ V5_E12 - Maximum memory usage (verification with Marabou): 568.359375
